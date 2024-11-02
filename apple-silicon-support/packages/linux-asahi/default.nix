@@ -88,13 +88,13 @@ let
 
       version = "6.11.4-asahi";
       modDirVersion = version;
-      extraMeta.branch = "6.10";
+      extraMeta.branch = "6.11";
 
       src = fetchFromGitHub {
         # tracking: https://github.com/AsahiLinux/linux/tree/asahi-wip (w/ fedora verification)
         owner = "AsahiLinux";
         repo = "linux";
-        rev = "asahi-6.10.6-1";
+        rev = "asahi-6.11.4-1";
         hash = "sha256-2etcnFXJP6KiVzdSeM+gY2VnC+fSQY/cO0IFt5KzF4E=";
       };
 
